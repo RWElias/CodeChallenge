@@ -1,0 +1,43 @@
+<template>
+    <div class="truckCard" draggable="true" ondragstart={drag}>
+        <div class='slds-grid slds-wrap'>
+            <div class="slds-col slds-size_1-of-1">
+                <div class="slds-grid slds-grid_align-end">
+                    <div class="slds-col">
+                        <lightning-icon icon-name="custom:custom98"></lightning-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <p class="slds-text-body_small bold">Name:</p>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <p class="slds-text-body_small">{product.truckName}</p>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <p class="slds-text-body_small bold">Make:</p>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <p class="slds-text-body_small">{product.truckMake}</p>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <p class="slds-text-body_small bold">Model:</p>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <p class="slds-text-body_small">{product.truckModel}</p>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <p class="slds-text-body_small bold">Weight:</p>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <p class="slds-text-body_small">{product.truckWeight} tonnes</p>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <p class="slds-text-body_small bold">PS:</p>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <p class="slds-text-body_small">{product.truckHorsePower}</p>
+            </div>
+        </div>
+    </div>
+</template>

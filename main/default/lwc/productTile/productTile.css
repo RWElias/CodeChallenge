@@ -1,0 +1,22 @@
+:host {
+    --sds-c-icon-color-background: #1C3144;
+}
+
+.truckCard{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1C3144;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 185px;
+    box-shadow: 3px 3px #1c3144;
+}
+
+.truckCard:hover {
+    background-color: lightblue;
+}
+
+.bold {
+    font-weight: bold;
+}

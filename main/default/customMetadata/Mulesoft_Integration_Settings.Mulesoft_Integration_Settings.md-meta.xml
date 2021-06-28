@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Mulesoft Integration Settings</label>
+    <protected>false</protected>
+    <values>
+        <field>Client_Id__c</field>
+        <value xsi:type="xsd:string">b903e91e6c6542a3a4a6e800f37f95ea</value>
+    </values>
+    <values>
+        <field>Client_Secret__c</field>
+        <value xsi:type="xsd:string">4d73e495F84E4c47B8a8E37C8F8B96b3</value>
+    </values>
+    <values>
+        <field>Correlation_Id__c</field>
+        <value xsi:type="xsd:string">267cf127-5cc9-499d-bb5c-fe2d447aa99d</value>
+    </values>
+    <values>
+        <field>Get_Vehicle_Endpoint__c</field>
+        <value xsi:type="xsd:string">https://eu1.anypoint.mulesoft.com/mocking/api/v1/links/267cf127-5cc9-499d-bb5c-fe2d447aa99d/JOINTHEDIGITALHUB/{0}</value>
+    </values>
+    <values>
+        <field>Request_Timeout__c</field>
+        <value xsi:type="xsd:double">40000.0</value>
+    </values>
+</CustomMetadata>

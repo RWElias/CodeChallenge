@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Lightning Message Channel sends information to drag and drop ligthning-cards</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>The quantity changed in the productQuantity LWC</description>
+        <fieldName>quantity</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>The Truck External Id</description>
+        <fieldName>truckVIN</fieldName>
+    </lightningMessageFields>
+    <masterLabel>CustomTableChannel</masterLabel>
+</LightningMessageChannel>

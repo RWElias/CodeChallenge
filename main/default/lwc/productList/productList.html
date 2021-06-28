@@ -1,0 +1,9 @@
+<template>
+    <div class="container">
+        <template if:true={productList}>
+            <template for:each={productList} for:item="product">
+                <c-product-tile key={product.truckVIN} product={product} product-v-i-n={product.truckVIN}></c-product-tile>
+            </template>
+        </template>
+    </div>
+</template>

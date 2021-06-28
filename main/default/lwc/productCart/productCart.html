@@ -1,0 +1,27 @@
+<template>
+    <div class="productsContainer" ondragover={allowDrop} ondrop={drop}>
+        <div if:false={isLoaded}>
+            <lightning-spinner size="large"></lightning-spinner>
+        </div>
+        <template if:true={productList}>
+            <c-custom-data-table
+                key-field="truckVIN" 
+                data={productList}
+                columns={columns}
+                onsort={sortColumns}
+                sorted-direction={sortDirection}
+                onrowaction={handleRowAction}
+                sorted-by={sortBy}
+                hide-checkbox-column>
+            </c-custom-data-table>
+            <div class="slds-grid slds-grid_align-end">
+                <div class="totals slds-col">
+                    <h3 class="slds-text-heading_medium">Total Amount: </h3>
+                </div>
+                <div class="totals slds-col">
+                    <h3 class="slds-text-heading_medium"><b>{totalAmount}</b></h3>
+                </div>
+            </div>
+        </template> 
+    </div>
+</template>

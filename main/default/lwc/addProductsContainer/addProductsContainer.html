@@ -1,0 +1,17 @@
+<template>
+    <!--Best-practice would be to use lightning-layout + layout items--> 
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_8-of-12">
+            <h3 class="slds-text-heading_small">Help: Drag & Drop the desired Products into the Opportunity Products box to add them to the Opportunity</h3>
+            <c-product-list opp-id={recordId}></c-product-list>
+        </div>
+        <div class="slds-col slds-size_4-of-12">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_1-of-1">
+                    <h3 class="slds-text-heading_small">Opportunity Products</h3>
+                    <c-product-cart opp-id={recordId}></c-product-cart>
+                </div>
+            </div>
+        </div>
+    </div>    
+</template>
